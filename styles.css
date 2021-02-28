@@ -1,0 +1,49 @@
+body {
+    background-color: #9FA6B6 ;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+.inline{
+    display: inline;
+}
+
+.form {
+    margin: auto;
+    background-color: #F3F3F7;
+    width: 600px;
+    font-family: 'Poppins', sans-serif;
+    color: #5B6786;
+    font-size: 12px;
+    padding: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+
+@media(min-width:468px){
+    .flex-container {
+        margin: auto;
+        display: flex;
+        width: 80%;
+        /* flex-basis: 70%; */
+    }
+
+    .flex-child {
+        flex: 1;
+    }   
+}
+/* .flex-child:first-child {
+    margin-right: 20px;
+}   */
+
+
+
+
+
+
+
+
